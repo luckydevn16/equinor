@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations!</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+        body {
+            width: 100%;
+            min-height: 100vh;
+            padding: 2rem 0;
+            overflow-x: hidden;
+            display: grid;
+            place-items: center center;
+            background-color: #333;
+            background: url('assets/img/hero-bg.jpg') no-repeat center / cover;
+            font-family: 'Ubuntu', sans-serif;
+            text-shadow: 0 6px 12px #111;
+            backdrop-filter: blur(10px)
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #fff;
+            text-align: center;
+        }
+        .logo-img {
+            display: block;
+            width: 90%;
+            max-width: 200px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #fff;
+            font-size: 2rem;
+            text-align: center;
+            margin: 1rem 0;
+            font-weight: 800;
+        }
+        p {
+            color: #fff;
+            font-size: 1.2rem;
+            text-align: center;
+            font-weight: 300;
+            line-height: 150%;
+            margin-bottom: 2rem;
+        }
+    </style>
+    <div class="container">
+        <img src="assets/img/logo.png" alt="logo" class="logo-img">
+        <h2>Thank you for registering!</h2>
+        <p>Our consultant will contact you shortly.</p>
+        <button class="btn" onclick="window.location = 'index.html'">
+            Back to Main Page
+        </button>
+    </div>
+</body>
+
+</html>
